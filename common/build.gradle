@@ -66,4 +66,6 @@ dependencies {
     api 'com.google.code.gson:gson:2.8.4'
     //
     api 'org.greenrobot:eventbus:3.1.1'
+    /*来自zhy封装的OK工具,需要在application中配置传入OKHttpClient实例*/
+    api 'com.zhy:okhttputils:2.6.2'
 }
