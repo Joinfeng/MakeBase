@@ -44,7 +44,9 @@ dependencies {
     api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
     //Permission
     api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
-    /*问题：组件化时BF间接依赖无效 解决方法：只能有用到的module都进行依赖*/
+    /*问题：组件化时BF间接依赖无效 解决方法：只能有用到的module都进行依赖
+    * 简单的在组件中依赖时library，无法使用
+    * */
     implementation "com.jakewharton:butterknife:$butterknife"
     annotationProcessor "com.jakewharton:butterknife-compiler:$butterknife"
     //
