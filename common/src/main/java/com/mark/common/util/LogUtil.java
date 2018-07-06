@@ -58,6 +58,11 @@ public class LogUtil {
 		if (DEBUG)
 			Log.w(tag, msg);
 	}
+	
+	public static void d(String tag, String msg) {
+             if (DEBUG)
+                LG.d(tag, msg);
+        }
 
 	/**
 	 * 功能:当数据太多,系统自带的log打印时控制台显示不完,可以使用这个方法来打印在控制台上,显示全部信息
