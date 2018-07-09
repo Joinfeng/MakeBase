@@ -39,30 +39,52 @@ public class LogUtil {
 			Log.w(DEFAULTTAG, msg);
 	}
 
-	public static void v(String tag, String msg) {
-		if (DEBUG)
-			Log.v(tag, msg);
-	}
+	 public static void v(String tag, String msg) {
+        if (DEBUG)
+            Log.v(tag, msg);
+    }
+    public static void v(String tag, String msg,Throwable tr) {
+        if (DEBUG)
+            Log.v(tag, msg);
+    }
 
-	public static void i(String tag, String msg) {
-		if (DEBUG)
-			Log.i(tag, msg);
-	}
+    public static void i(String tag, String msg) {
+        if (DEBUG)
+            Log.i(tag, msg);
+    }
+    public static void i(String tag, String msg,Throwable tr) {
+        if (DEBUG)
+            Log.i(tag, msg);
+    }
 
-	public static void e(String tag, String msg) {
-		if (DEBUG)
-			Log.e(tag, msg);
-	}
+    public static void e(String tag, String msg) {
+        if (DEBUG)
+            Log.e(tag, msg);
+    }
+    public static void e(String tag, String msg,Throwable tr) {
+        if (DEBUG)
+            Log.e(tag, msg);
+    }
 
-	public static void w(String tag, String msg) {
-		if (DEBUG)
-			Log.w(tag, msg);
-	}
-	
-	public static void d(String tag, String msg) {
-             if (DEBUG)
-                LG.d(tag, msg);
-        }
+
+
+    public static void w(String tag, String msg) {
+        if (DEBUG)
+            Log.w(tag, msg);
+    }
+    public static void w(String tag, String msg,Throwable tr) {
+        if (DEBUG)
+            Log.w(tag, msg);
+    }
+
+    public static void d(String tag, String msg) {
+        if (DEBUG)
+            Log.d(tag, msg);
+    }
+    public static void d(String tag, String msg,Throwable tr) {
+        if (DEBUG)
+            Log.d(tag, msg);
+    }
 
 	/**
 	 * 功能:当数据太多,系统自带的log打印时控制台显示不完,可以使用这个方法来打印在控制台上,显示全部信息
