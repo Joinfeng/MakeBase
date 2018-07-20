@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自带红色圆点的布局样式-->
+    <declare-styleable name="RedDotLayout">
+        <attr name="red_background" format="color" />
+        <attr name="red_radius" format="dimension" />
+        <attr name="red_text" format="string" />
+        <attr name="red_textColor" format="color" />
+        <attr name="red_location" format="integer" />
+        <attr name="red_textSize" format="dimension" />
+    </declare-styleable>
+
+
+</resources>
